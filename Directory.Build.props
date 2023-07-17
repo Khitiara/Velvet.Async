@@ -1,0 +1,27 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+    <Choose>
+        <When Condition="$(MSBuildProjectName)!='.sln-items'">
+            <PropertyGroup>
+                <ImplicitUsings>enable</ImplicitUsings>
+                <Nullable>enable</Nullable>
+                <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+                <LangVersion>11</LangVersion>
+                <EnablePreviewFeatures>true</EnablePreviewFeatures>
+                <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+            </PropertyGroup>
+            <ItemGroup>
+                <PackageReference Include="ThisAssembly" />
+                <PackageReference Include="JetBrains.Annotations"/>
+                <PackageReference Include="NuGetizer" />
+                <PackageReference Include="Nerdbank.GitVersioning" Condition="!Exists('packages.config')">
+                    <PrivateAssets>all</PrivateAssets>
+                </PackageReference>
+                <PackageReference Include="DotNet.ReproducibleBuilds" PrivateAssets="All"/>
+            </ItemGroup>
+        </When>
+        <Otherwise/>
+    </Choose>
+</Project>

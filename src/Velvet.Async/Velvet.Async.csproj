@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.Windowing.Common" />
+  </ItemGroup>
+</Project>

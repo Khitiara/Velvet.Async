@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+  <ItemGroup>
+    <Content Include=".config\dotnet-tools.json" />
+    <Content Include=".github\CODEOWNERS" />
+    <Content Include=".gitignore" />
+    <Content Include="Directory.Build.props" />
+    <Content Include="Directory.Packages.props" />
+    <Content Include="global.json" />
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
+    <Content Include="version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nuget.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".github\workflows\" />
+  </ItemGroup>
+</Project>

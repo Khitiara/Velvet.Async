@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
+  "version": "0.0.1-pre",
+  "assemblyVersion": {
+    "precision": "build"
+  },
+  "nugetPackageVersion": {
+    "semVer": 2
+  },
+  "publicReleaseRefSpec": [
+    "^refs/tags/v\\d+\\.\\d+\\.\\d+"
+  ],
+  "cloudBuild": {
+    "setVersionVariables": true
+  },
+  "release" : {
+    "tagName" : "v{version}",
+    "versionIncrement" : "build",
+    "firstUnstableTag" : "pre"
+  }
+}

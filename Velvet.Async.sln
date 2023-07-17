@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = ".sln-items", ".sln-items.proj", "{7E268C0C-CDFF-482D-A32F-1C1584A7B382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C70E0476-97BE-4DEB-BB77-45AE703CDDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velvet.Async", "src\Velvet.Async\Velvet.Async.csproj", "{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E268C0C-CDFF-482D-A32F-1C1584A7B382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E268C0C-CDFF-482D-A32F-1C1584A7B382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E268C0C-CDFF-482D-A32F-1C1584A7B382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E268C0C-CDFF-482D-A32F-1C1584A7B382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F10FD303-6CDF-4AF8-93F3-7E1130AD2BAF} = {C70E0476-97BE-4DEB-BB77-45AE703CDDA5}
+	EndGlobalSection
+EndGlobal
